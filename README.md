@@ -4,7 +4,7 @@ Built using Raspberry Pi Pico, [Pimoroni](https://www.pimoroni.com) Display Pack
 
 ---
 
-There is a writeup of this project over at Kevsrobots.com - <https://www.kevsrobots.com/blog/ghostbox.html> where you can also download the STL files, and find the bill of materials.
+There is a write-up of this project over at Kevsrobots.com - <https://www.kevsrobots.com/blog/ghostbox.html> where you can also download the STL files, and find the bill of materials.
 
 There are 4 files that will need copying over to the Pico:
 
@@ -12,6 +12,14 @@ There are 4 files that will need copying over to the Pico:
 * `ghostbox.py`
 * `ghostwords.txt`
 * `gui.py`
+
+## How to copy files to a Pico using Thonny
+
+1. Download [Thonny IDE](https://thonny.org) onto your computer.
+1. Set Thonny to standard mode by clicking the `Switch to regular mode` link at the top right of the screen.
+2. Quit Thonny and start it again to change it into `Regular Mode`
+3. Make sure you can see the files on your computer and also on Thonny; Click the View menu and make sure `Files` option is selected.
+
 
 You can make the Pico automatically launch the ghostbox.py code by renaming it to main.py on the Pico.
 
